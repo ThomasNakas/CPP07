@@ -6,7 +6,7 @@
 /*   By: tnakas <tnakas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/25 15:43:39 by tnakas            #+#    #+#             */
-/*   Updated: 2025/02/25 17:48:38 by tnakas           ###   ########.fr       */
+/*   Updated: 2025/02/25 18:07:35 by tnakas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ class Array
 	
 	public:
 		Array() : _array(nullptr), _size(0){};
-		Array(unsigned int n) : __array(new T[n]()), _size(0){};
+		Array(unsigned int n) : _array(new T[n]()), _size(n){};
 		Array (const Array& other) : _array(nullptr), _size(0){*this = other;};
 		Array& operator=(const Array& other)
 		{
@@ -36,9 +36,8 @@ class Array
 				
 				for (unsigned int i = 0; i < _size; ++i)
 					_array[i] = other._array[i];
-				return *this;
-				
 			}
+			return *this;
 		};
 		~Array(){delete[] _array;};
 		T& operator[](unsigned int index)
