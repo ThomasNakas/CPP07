@@ -6,7 +6,7 @@
 #    By: tnakas <tnakas@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/18 18:20:05 by tnakas            #+#    #+#              #
-#    Updated: 2025/02/25 15:02:26 by tnakas           ###   ########.fr        #
+#    Updated: 2025/02/25 18:33:34 by tnakas           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ SRC_DIR     = src
 OBJ_DIR     = obj
 
 SRC         = $(SRC_DIR)/main.cpp
-HEADER		= $(SRC_DIR)/Temp/Temp.hpp
+HEADER		= $(SRC_DIR)/Whatever/whatever.hpp
 OBJ         = $(SRC:$(SRC_DIR)/%.cpp=$(OBJ_DIR)/%.o)
 
 CC          = c++

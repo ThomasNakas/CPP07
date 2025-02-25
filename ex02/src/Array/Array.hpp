@@ -6,7 +6,7 @@
 /*   By: tnakas <tnakas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/25 15:43:39 by tnakas            #+#    #+#             */
-/*   Updated: 2025/02/25 18:12:17 by tnakas           ###   ########.fr       */
+/*   Updated: 2025/02/25 18:39:27 by tnakas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ class Array
 		T& operator[](unsigned int index)
 		{
 			if (index >= _size)
-				throw std::out_of_range("Index out of bounds");
+				throw std::out_of_range("Error: Index out of bounds");
 			return _array[index];
 		}
 		unsigned int size() const
