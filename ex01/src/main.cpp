@@ -6,7 +6,7 @@
 /*   By: tnakas <tnakas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/20 22:15:33 by tnakas            #+#    #+#             */
-/*   Updated: 2025/02/25 15:34:59 by tnakas           ###   ########.fr       */
+/*   Updated: 2025/02/25 15:37:29 by tnakas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,6 @@ int main()
 	iter(intArray, intArrayLength, printElement);
 	std::cout << "\n";
 	//Array of strings
-
 	std::string strArray[] = {"Hello", "World", "Iter", "Template"};
 	size_t strArrayLength = sizeof(strArray) / sizeof(strArray[0]);
 	
