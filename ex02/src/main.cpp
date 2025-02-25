@@ -6,7 +6,7 @@
 /*   By: tnakas <tnakas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/25 12:05:19 by tnakas            #+#    #+#             */
-/*   Updated: 2025/02/25 18:03:56 by tnakas           ###   ########.fr       */
+/*   Updated: 2025/02/25 18:16:34 by tnakas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ int main()
 		//4: Assgnment operator
 		Array<int> arr4;
 		arr4 = arr2;
+		std::cout << "Size of arr4 (assgned from arr2): " << arr4.size() << "\n";
 		for (unsigned int i = 0; i < arr4.size(); ++i)
 			std::cout << "arr4[" << i << "] = " << arr4[i] << "\n"; 
 		// 5: out of bounds testing throwing error expected
