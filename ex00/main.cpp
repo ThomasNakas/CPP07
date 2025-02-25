@@ -6,11 +6,11 @@
 /*   By: tnakas <tnakas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/20 22:15:33 by tnakas            #+#    #+#             */
-/*   Updated: 2025/02/25 18:33:14 by tnakas           ###   ########.fr       */
+/*   Updated: 2025/02/25 19:25:41 by tnakas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Whatever/whatever.hpp"
+#include "whatever.hpp"
 
 int main()
 {

@@ -6,17 +6,17 @@
 #    By: tnakas <tnakas@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/18 18:20:05 by tnakas            #+#    #+#              #
-#    Updated: 2025/02/25 18:05:06 by tnakas           ###   ########.fr        #
+#    Updated: 2025/02/25 19:26:31 by tnakas           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 
 NAME        = obj/ex02
-SRC_DIR     = src
+SRC_DIR     = .
 OBJ_DIR     = obj
 
 SRC         = $(SRC_DIR)/main.cpp
-HEADER		= $(SRC_DIR)/Array/Array.hpp
+HEADER		= $(SRC_DIR)/Array.hpp
 OBJ         = $(SRC:$(SRC_DIR)/%.cpp=$(OBJ_DIR)/%.o)
 
 CC          = c++

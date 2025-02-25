@@ -6,11 +6,11 @@
 /*   By: tnakas <tnakas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/25 12:05:19 by tnakas            #+#    #+#             */
-/*   Updated: 2025/02/25 19:10:21 by tnakas           ###   ########.fr       */
+/*   Updated: 2025/02/25 19:26:06 by tnakas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Array/Array.hpp"
+#include "Array.hpp"
 
 
 // #define MAX_VAL 750
