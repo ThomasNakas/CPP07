@@ -6,7 +6,7 @@
 /*   By: tnakas <tnakas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/25 15:12:17 by tnakas            #+#    #+#             */
-/*   Updated: 2025/02/25 15:21:40 by tnakas           ###   ########.fr       */
+/*   Updated: 2025/02/25 15:32:59 by tnakas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 template <typename T>
 void iter(T* array, size_t length, void(*func)(T&))
 {
-	for (size_t i = 0; i < legth; ++i)
+	for (size_t i = 0; i < length; ++i)
 		func(array[i]);
 }
 

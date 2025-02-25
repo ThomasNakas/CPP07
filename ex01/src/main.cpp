@@ -6,7 +6,7 @@
 /*   By: tnakas <tnakas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/20 22:15:33 by tnakas            #+#    #+#             */
-/*   Updated: 2025/02/25 15:30:25 by tnakas           ###   ########.fr       */
+/*   Updated: 2025/02/25 15:34:59 by tnakas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,11 +31,7 @@ int main()
 	std::string strArray[] = {"Hello", "World", "Iter", "Template"};
 	size_t strArrayLength = sizeof(strArray) / sizeof(strArray[0]);
 	
- 	std::cout << "Original strings array: \n";
-	iter(strArray, strArrayLength, printElement);
-	std::cout << "\n";
-	std::cout << "Doubled strings array: ";
-	iter(strArray, strArrayLength, DoubleElement);
+ 	std::cout << "Running printElement in the strings array: \n";
 	iter(strArray, strArrayLength, printElement);
 	std::cout << "\n";
 	return 0;
