@@ -6,7 +6,7 @@
 /*   By: tnakas <tnakas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/25 12:05:19 by tnakas            #+#    #+#             */
-/*   Updated: 2025/02/25 18:16:34 by tnakas           ###   ########.fr       */
+/*   Updated: 2025/02/25 18:23:31 by tnakas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,13 +36,11 @@ int main()
 			std::cout << "arr4[" << i << "] = " << arr4[i] << "\n"; 
 		// 5: out of bounds testing throwing error expected
 		std::cout << arr2[10] << "\n";
-		
 	}
 	catch(const std::exception& e)
 	{
 		std::cerr << e.what() << '\n';
 	}
-	
 	return 0;
 	
 }
