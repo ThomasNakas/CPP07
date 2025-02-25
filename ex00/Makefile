@@ -6,18 +6,17 @@
 #    By: tnakas <tnakas@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/18 18:20:05 by tnakas            #+#    #+#              #
-#    Updated: 2025/02/25 14:40:34 by tnakas           ###   ########.fr        #
+#    Updated: 2025/02/25 15:02:26 by tnakas           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 
-NAME        = obj/convert
+NAME        = obj/ex00
 SRC_DIR     = src
 OBJ_DIR     = obj
 
-SRC         = $(SRC_DIR)/main.cpp \
-              $(SRC_DIR)/Temp/Temp.cpp
-
+SRC         = $(SRC_DIR)/main.cpp
+HEADER		= $(SRC_DIR)/Temp/Temp.hpp
 OBJ         = $(SRC:$(SRC_DIR)/%.cpp=$(OBJ_DIR)/%.o)
 
 CC          = c++
@@ -31,7 +30,7 @@ $(NAME): $(OBJ)
 	mkdir -p obj
 	$(CC) $(CPPFLAGS) $(OBJ) -o $(NAME)
 
-$(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
+$(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp $(HEADER)
 	@mkdir -p $(dir $@)
 	$(CC) $(CPPFLAGS) -c $< -o $@
 
