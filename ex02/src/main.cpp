@@ -6,16 +6,17 @@
 /*   By: tnakas <tnakas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/25 12:05:19 by tnakas            #+#    #+#             */
-/*   Updated: 2025/02/25 18:57:14 by tnakas           ###   ########.fr       */
+/*   Updated: 2025/02/25 19:10:21 by tnakas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Array/Array.hpp"
 
 
-#define MAX_VAL 750
+// #define MAX_VAL 750
 int main()
 {
+	//====================MY_TESTS====================================
 	try
 	{
 		//1: Testing default -- empty array
@@ -43,6 +44,7 @@ int main()
 	{
 		std::cerr << e.what() << '\n';
 	}
+	//===================================================================
 	//==============main.cpp====================
 	// Array<int> numbers(MAX_VAL);
     // int* mirror = new int[MAX_VAL];
